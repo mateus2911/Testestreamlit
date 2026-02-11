@@ -1,0 +1,5 @@
+id_auditoria,data_auditoria,id_projeto,nome_projeto,tipo_auditoria,item_auditado,resultado_texto,resultado_valor,observacoes
+1,2025-10-19,P001,Site Cliente X,Projetos,Backup,Conforme,0,
+2,2025-10-19,P001,Site Cliente X,Projetos,Boas Práticas,Não Conforme,1,Padrões de commit não seguidos
+3,2025-10-19,P001,Site Cliente X,NPS,NPS,N/A,9,Cliente elogiou a agilidade
+4,2025-10-19,N/A,N/A,POP,Projetos,N/A,5,
