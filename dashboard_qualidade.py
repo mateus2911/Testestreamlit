@@ -35,9 +35,9 @@ st.markdown("---")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv('qualidade_database.csv', encoding='utf-8')
+        df = pd.read_csv('qualidade_database-1.csv', encoding='utf-8')
     except:
-        df = pd.read_csv('qualidade_database.csv', encoding='latin-1')
+        df = pd.read_csv('qualidade_database-1.csv', encoding='latin-1')
     
     # Converter data para datetime
     df['data_auditoria'] = pd.to_datetime(df['data_auditoria'])
