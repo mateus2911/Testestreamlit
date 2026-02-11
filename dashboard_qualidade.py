@@ -492,11 +492,10 @@ if len(df_filtered[df_filtered['tipo_auditoria'] == 'NPS']) > 0:
             height=400,
             xaxis_title="Projeto",
             yaxis_title="NPS Score",
-            yaxis=dict(range=[0, 10]),
             paper_bgcolor='rgba(0,0,0,0)',
             plot_bgcolor='rgba(0,0,0,0)',
             xaxis=dict(showgrid=False),
-            yaxis=dict(showgrid=True, gridcolor='rgba(0,0,0,0.1)')
+            yaxis=dict(range=[0, 10], showgrid=True, gridcolor='rgba(0,0,0,0.1)')
         )
         st.plotly_chart(fig_nps, use_container_width=True)
     
