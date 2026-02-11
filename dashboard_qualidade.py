@@ -204,8 +204,8 @@ st.markdown("""
 def load_data():
     # Procura o arquivo no diretório atual ou no caminho do script
     possible_paths = [
-        'qualidade_database.csv',
-        './qualidade_database.csv',
+        'qualidade_database-1.csv',
+        './qualidade_database-1.csv',
         os.path.join(os.path.dirname(__file__), 'qualidade_database.csv')
     ]
     
